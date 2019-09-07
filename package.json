@@ -8,13 +8,13 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-pose": "^4.0.8",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "serve": "node scripts/runserver.js",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -25,7 +25,11 @@
   "browserslist": [
     ">0.2%",
     "not dead",
-    "not ie <= 11",
     "not op_mini all"
+  ],
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
   ]
 }
